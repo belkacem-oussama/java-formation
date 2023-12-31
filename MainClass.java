@@ -1,15 +1,18 @@
 public class MainClass {
     public static void main(String[] args) {
-        int firstInt = 89;
+        int firstInt = 80;
         int secondInt = 100;
         String firstString = "Match !";
 
         if ((firstInt + secondInt) == 189 ) {
             System.out.println(firstString);
-        } else {
-            System.out.println("No match ...");
+        } else if (firstInt == 80) {
+            System.out.println("First int is 80.");
+        } 
+        else {
+            System.out.println("Nothing ...");
         }
     }
 }
 
-//Output => "Match !"
+//Output => "First int is 80."
