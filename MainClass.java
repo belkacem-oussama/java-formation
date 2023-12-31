@@ -9,9 +9,12 @@ public class MainClass {
         // char firstChar = 'O';
         // String firstString = "I am O";
 
-        boolean firstTrue = true;
-        boolean firstFalse = false;
+        // boolean firstTrue = true;
+        // boolean firstFalse = false;
 
-        System.out.println("This is " + firstTrue + " and this is " + firstFalse);
+        int[] firstIntArray = {1, 2, 3, 4, 5};
+        String[] firstStringArray = {"Java", "is", "Strong"};
+
+        System.out.println("This is a array of int : " + firstIntArray + " and this is a String array : " + firstStringArray);
     }
 }
