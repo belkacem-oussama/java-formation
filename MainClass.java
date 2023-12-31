@@ -1,17 +1,16 @@
 public class MainClass {
     public static void main(String[] args) {
+        String[] carsArray = {"BMW", "AUDI", "MERCEDES"} ;
 
-       for (int i = 0; i <= 6; i++) {
-        System.out.println(i);
-       }
+        for (String string : carsArray) {
+            System.out.println(string);
+        }
     }
 }
 
-//Output =>
-// 0
-// 1
-// 2
-// 3
-// 4
-// 5
-// 6
+/**
+ * OUTPUT =>
+ * BMW
+    AUDI
+    MERCEDES
+ */
