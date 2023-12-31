@@ -6,9 +6,12 @@ public class MainClass {
         // float firstFloat = 3.4f;
         // double firstDouble = 3.4;
 
-        char firstChar = 'O';
-        String firstString = "I am O";
+        // char firstChar = 'O';
+        // String firstString = "I am O";
 
-        System.out.println("This is " + firstChar + " and " + firstString);
+        boolean firstTrue = true;
+        boolean firstFalse = false;
+
+        System.out.println("This is " + firstTrue + " and this is " + firstFalse);
     }
 }
