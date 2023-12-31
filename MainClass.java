@@ -1,15 +1,18 @@
 public class MainClass {
     public static void main(String[] args) {
-        int firstInt = 80;
+        int firstInt = 0;
 
-        switch (firstInt) {
-            case 80: System.out.println("First int is 80.");
-                break;
-            case 90: System.out.println("First int is 90.");
-            default:
-                break;
+        while (firstInt < 6) {
+            System.out.println("firstInt < 6, look : " + firstInt);
+            ++firstInt;
         }
     }
 }
 
-//Output => "First int is 80."
+//Output =>
+// firstInt < 6, look : 0
+// firstInt < 6, look : 1
+// firstInt < 6, look : 2
+// firstInt < 6, look : 3
+// firstInt < 6, look : 4
+// firstInt < 6, look : 5
