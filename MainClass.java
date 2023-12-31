@@ -3,6 +3,6 @@ public class MainClass {
         int firstInt = 10;
         int secondInt = 30;
 
-       System.out.println(firstInt > secondInt && secondInt > firstInt);
+       System.out.println(firstInt > secondInt || secondInt > firstInt);
     }
 }
