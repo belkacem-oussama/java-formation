@@ -1,5 +1,8 @@
 public class MainClass {
     public static void main(String[] args) {
-       System.out.println("Hello World !");
+        int firstInt = 10;
+        int secondInt = 30;
+
+       System.out.println(firstInt+secondInt);
     }
 }
