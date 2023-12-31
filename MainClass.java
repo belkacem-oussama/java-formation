@@ -12,9 +12,18 @@ public class MainClass {
         // boolean firstTrue = true;
         // boolean firstFalse = false;
 
-        int[] firstIntArray = {1, 2, 3, 4, 5};
-        String[] firstStringArray = {"Java", "is", "Strong"};
+        // int[] firstIntArray = {1, 2, 3, 4, 5};
+        // String[] firstStringArray = {"Java", "is", "Strong"};
 
-        System.out.println("This is a array of int : " + firstIntArray + " and this is a String array : " + firstStringArray);
+        class User {
+            String userName;
+            int userAge;
+        }
+
+        User firstUser = new User();
+        firstUser.userName = "Oussama";
+        firstUser.userAge = 26;
+
+        System.out.println("Hello, je m'appelle " + firstUser.userName + " et j'ai " + firstUser.userAge + " ans.");
     }
 }
